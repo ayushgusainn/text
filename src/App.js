@@ -1,5 +1,5 @@
 import './App.css';
-import Navbar from './components/Navbar';
+// import Navbar from './components/Navbar';
 import TextForm from './components/TextForm';
 // import About from './components/About';
 import React, { useState } from 'react';
@@ -38,11 +38,15 @@ function App() {
     }
   }
   return (
+
     <>
+
     {/* <Router> */}
-    <Navbar title="TextUtils" mode={mode} toggleMode={toggleMode} key={new Date()} />
+    
+    {/* <Navbar title="TextUtils" mode={mode} toggleMode={toggleMode} key={new Date()} /> */}
     <Alert alert={alert}/>
     <div className="container my-3">
+      
     {/* <Routes> */}
     {/* /users --> Component 1
         /users/home --> Component 2 */}
