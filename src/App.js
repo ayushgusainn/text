@@ -38,8 +38,9 @@ function App() {
     }
   }
   return (
-    
+
     <>
+    
     {/* <Router> */}
     
     {/* <Navbar title="TextUtils" mode={mode} toggleMode={toggleMode} key={new Date()} /> */}
