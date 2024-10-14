@@ -1,5 +1,5 @@
 import './App.css';
-// import Navbar from './components/Navbar';
+import Navbar from './components/Navbar';
 import TextForm from './components/TextForm';
 // import About from './components/About';
 import React, { useState } from 'react';
@@ -14,11 +14,12 @@ import Alert from './components/Alert';
 function App() {
   const [mode, setMode] = useState('light'); // Whether dark mode is enabled or not
   const [alert, setAlert] = useState(null);
+
   const showAlert = (message, type)=>{
       setAlert({
         msg: message,
         type: type
-
+        
       })
       setTimeout(() => {
           setAlert(null);
@@ -43,7 +44,7 @@ function App() {
 
     {/* <Router> */}
     
-    {/* <Navbar title="TextUtils" mode={mode} toggleMode={toggleMode} key={new Date()} /> */}
+    <Navbar title="TextUtils" mode={mode} toggleMode={toggleMode} key={new Date()} />
     <Alert alert={alert}/>
     <div className="container my-3">
       
