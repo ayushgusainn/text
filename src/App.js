@@ -53,7 +53,7 @@ function App() {
         /users/home --> Component 2 */}
            {/* <Route path="/about" element={<About mode={mode} />} />
            <Route path="/" element={ */}
-            <TextForm showAlert={showAlert} heading="Try TextUtils - word counter, character counter, remove extra spaces" mode={mode} />
+            <TextForm showAlert={showAlert} heading="Try TextUtils " mode={mode} />
             {/* // } /> */}
     {/* </Routes> */}
     </div>
