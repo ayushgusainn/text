@@ -3,7 +3,7 @@ import Navbar from './components/Navbar';
 import TextForm from './components/TextForm';
 // import About from './components/About';
 import React, { useState } from 'react';
-// import Alert from './components/Alert';
+import Alert from './components/Alert';
 // import {
 //   BrowserRouter as Router,
 //   Route,
@@ -41,7 +41,7 @@ function App() {
     <>
     {/* <Router> */}
     <Navbar title="TextUtils" mode={mode} toggleMode={toggleMode} key={new Date()} />
-    {/* <Alert alert={alert}/> */}
+    <Alert alert={alert}/>
     <div className="container my-3">
     {/* <Routes> */}
     {/* /users --> Component 1
